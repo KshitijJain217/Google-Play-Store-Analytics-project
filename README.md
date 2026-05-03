@@ -58,4 +58,3 @@ Visualized the cumulative number of installs over time.
 2. Install requirements: `pip install pandas numpy scikit-learn plotly nltk`.
 3. Run `jupyter notebook play_store_analytics.ipynb`.
 
-*(A professional PDF summary of these tasks, `Play_Store_Analytics_Report.pdf`, is also included in this repository).*
