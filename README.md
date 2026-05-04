@@ -23,7 +23,7 @@ Compared the average rating and total review count for the top 10 app categories
 * **Filters Applied:** Average rating >= 4.0, Size < 10 MB, updated in January.
 * **Time Gate:** Displayed *only* between 3:00 PM – 5:00 PM IST.
 
-![Internship Task 1 Output](Outputs/Internship%20Task%201)
+![Internship Task 1 Output](Outputs/Internship%20Task%201.png)
 
 ### 2. Global Installs Distribution (Choropleth Treemap)
 Visualized global installs by Category.
