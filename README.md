@@ -23,15 +23,21 @@ Compared the average rating and total review count for the top 10 app categories
 * **Filters Applied:** Average rating >= 4.0, Size < 10 MB, updated in January.
 * **Time Gate:** Displayed *only* between 3:00 PM – 5:00 PM IST.
 
+![Internship Task 1 Output](Outputs/Internship%20Task%201)
+
 ### 2. Global Installs Distribution (Choropleth Treemap)
 Visualized global installs by Category.
 * **Filters Applied:** Filtered to the top 5 categories globally. Explicitly excluded categories starting with "A", "C", "G", or "S". Highlighted categories exceeding 1 Million installs.
 * **Time Gate:** Displayed *only* between 6:00 PM – 8:00 PM IST.
 
+![Internship Task 2 Output](Outputs/Internship%20Task%202)
+
 ### 3. Monetization Strategy: Free vs. Paid (Dual-Axis Chart)
 Compared average installs against total accumulated revenue for Free vs. Paid applications across the top 3 categories.
 * **Filters Applied:** Installs >= 10,000, Revenue >= $10,000, Android Version > 4.0, Size > 15 MB, Content Rating exactly "Everyone", and App Name length <= 30 characters.
 * **Time Gate:** Displayed *only* between 1:00 PM – 2:00 PM IST.
+
+![Internship Task 3 Output](Outputs/Internship%20Task%203)
 
 ### 4. Category Growth Trending (Time Series)
 Visualized the trend of total installs over time, segmented by app category, highlighting months with >20% Month-over-Month growth.
@@ -39,11 +45,15 @@ Visualized the trend of total installs over time, segmented by app category, hig
 * **Localization:** Translated "Beauty" to Hindi, "Business" to Tamil, and "Dating" to German in the chart legend.
 * **Time Gate:** Displayed *only* between 6:00 PM – 9:00 PM IST.
 
+![Internship Task 4 Output](Outputs/Internship%20Task%204)
+
 ### 5. Application Viability (Bubble Chart)
 Analyzed the relationship between app size and average rating, weighting the bubble size by total installs.
 * **Filters Applied:** Rating > 3.5, Installs > 50k, Reviews > 500, App name must not contain "s", and NLP Sentiment Subjectivity > 0.5. Categories strictly limited to: Game, Beauty, Business, Comics, Communication, Dating, Entertainment, Social, and Events.
 * **Aesthetics:** Game category dynamically highlighted in Pink. "Beauty", "Business", and "Dating" dynamically translated.
 * **Time Gate:** Displayed *only* between 5:00 PM – 7:00 PM IST.
+
+![Internship Task 5 Output](Outputs/Internship%20Task%205)
 
 ### 6. Cumulative Trajectory (Stacked Area Chart)
 Visualized the cumulative number of installs over time.
@@ -51,9 +61,12 @@ Visualized the cumulative number of installs over time.
 * **Localization:** Translated "Travel & Local" to French, "Productivity" to Spanish, and "Photography" to Japanese. Months with >25% MoM growth highlighted.
 * **Time Gate:** Displayed *only* between 4:00 PM – 6:00 PM IST.
 
+![Internship Task 6 Output](Outputs/Internship%20Task%206)
+
 ---
 
 ## 🛠 Setup & Usage
 1. Clone the repository and ensure `Play Store Data.csv` and `User Reviews.csv` are in the root directory.
 2. Install requirements: `pip install pandas numpy scikit-learn plotly nltk`.
 3. Run `jupyter notebook play_store_analytics.ipynb`.
+
